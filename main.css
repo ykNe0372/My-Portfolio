@@ -1,0 +1,168 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: "Yusei Magic", sans-serif;
+    --theme-color-1: #5169d7;
+    --theme-color-2: #fc3;
+    --theme-color-3: #3af;
+    --theme-color-4: #3fa;
+    --theme-color-5: #f3a;
+    color: #ffffff;
+}
+
+a {
+    color: var(--theme-color-4);
+}
+
+.img-icon img {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 33px;
+    max-width: 60%;
+    max-height: auto;
+}
+
+.name {
+    font-size: 60%;
+    transform: rotate(-10deg);
+}
+strong {
+    font-size: 20px;
+    color: var(--theme-color-5);
+}
+
+h1 {
+    font-family: "Freestyle Script", 'Mistral', "Palace Script MT", "Rage Italic",  "Matura MT Script Capitals";
+    position: relative;
+    text-align: center;
+    color: var(--theme-color-3);
+    font-size: 800%;
+    padding: 0.2em 0.5em;
+    letter-spacing: 0.1em;
+    text-shadow: #fff 2px 0, #fff -2px 0, #fff 0 -2px, #fff 0 2px, #fff 2px 2px,
+      #fff -2px 2px, #fff 2px -2px, #fff -2px -2px, #fff 1px 2px, #fff -1px 2px,
+      #fff 1px -2px, #fff -1px -2px, #fff 2px 1px, #fff -2px 1px, #fff 2px -1px,
+      #fff -2px -1px, rgba(0, 0, 0, 0.5) 3px 3px 3px;
+    border-bottom: double 5px #3af;
+    padding-bottom: 50px;
+}
+
+.introduction {
+    display: flex;
+}
+.introduction .img-icon {
+    display: flex;
+    transform: translateX(70px);
+}
+.introduction .information {
+    display: flex;
+    align-items: center;
+    transform: translateX(-70px);
+}
+
+body {
+    color: var(--main-foreground);
+    height: 100%;
+    background: linear-gradient(#003fac,#abf5ff);
+    line-height: 1.8;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    max-width: 980px;
+    margin: 2em auto;
+    padding: 0px 30px;
+}
+
+h2 {
+    position: relative;
+    left: 0.2em;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Font Awesome 6 Free";
+    content: "\f5ad";
+    top: 0.2em;
+    color: var(--theme-color-2);
+}
+
+h3 {
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Font Awesome 6 Free";
+    top: 0.2em;
+    content: "\f5ad";
+    color: var(--theme-color-1);
+}
+
+.background {
+    position: relative;
+}
+.background::before {
+    position: absolute;
+    content: "";
+    left: -2%;
+    top: -5%;
+    background-color: #d3a;
+    width: 50px;
+    height: 20px;
+    z-index: -1;
+}
+
+.Cplus {
+    display: flex;
+    max-width: 2500px;
+    height: 200px;
+}
+.Cplus .icon_Cplus {
+    width: 100%;
+    height: 100%;
+}
+.Cplus .text_Cplus {
+    transform: translateX(-230px);
+    width: 100%;
+    height: 100%;
+    font-size: 17px;
+}
+
+.Csharp {
+    display: flex;
+    max-width: 2500px;
+    height: 200px;
+}
+.Csharp .icon_Csharp {
+    width: 100%;
+    height: 100%;
+}
+.Csharp .text_Csharp {
+    transform: translateX(-230px);
+    width: 100%;
+    height: 100%;
+    font-size: 17px;
+}
+
+.Python {
+    display: flex;
+    max-width: 2500px;
+    height: 200px;
+}
+.Python .icon_Python {
+    width: 100%;
+    height: 100%;
+}
+.Python .text_Python {
+    transform: translateX(-230px);
+    width: 100%;
+    height: 100%;
+    font-size: 17px;
+}
+
+ul {
+    display: flex;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
